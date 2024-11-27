@@ -16,16 +16,17 @@ namespace Tyuiu.MohnonogovaPV.Sprint5.Task7.V8.Lib
                 File.Delete(pathSaveFile);
 
             }
-            string strLine = "";
+            string strl = "";
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    strLine = line.ToLower();
+                    line = line.Replace('А', 'а').Replace('Б', 'б').Replace('В', 'в').Replace('Г', 'г').Replace('Д', 'д').Replace('Е', 'е').Replace('Ё', 'ё').Replace('Ж', 'ж').Replace('З', 'з').Replace('И', 'и').Replace('Й', 'й').Replace('К', 'к').Replace('Л', 'л').Replace('М', 'м').Replace('Н', 'н').Replace('О', 'о').Replace('П', 'п').Replace('Р', 'р').Replace('С', 'с').Replace('Т', 'т').Replace('У', 'у').Replace('Ф', 'ф').Replace('Х', 'х').Replace('Ц', 'ц').Replace('Ч', 'ч').Replace('Ш', 'ш').Replace('Щ', 'щ').Replace('Ъ', 'ъ').Replace('Ы', 'ы').Replace('Ь', 'ь').Replace('Э', 'э').Replace('Ю', 'ю').Replace('Я', 'я');
+                    strl = line;
                 }
-                File.AppendAllText(pathSaveFile, strLine + Environment.NewLine);
-                strLine = "";
+                File.AppendAllText(pathSaveFile, strl + Environment.NewLine);
+                strl = "";
             }
             return pathSaveFile;
         }
