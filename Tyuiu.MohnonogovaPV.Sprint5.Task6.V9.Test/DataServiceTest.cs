@@ -6,8 +6,15 @@ namespace Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CheckExistsFile()
         {
+            string path = @"C:\Users\Полина\source\repos\Tyuiu.MohnonogovaPV.Sprint5\DataSprint5\InPutDataFileTask6V9.txt";
+
+            FileInfo fileInfo = new FileInfo(path);
+            bool fileExists = fileInfo.Exists;
+
+            bool wait = true;
+            Assert.AreEqual(wait, fileExists);
         }
     }
 }
