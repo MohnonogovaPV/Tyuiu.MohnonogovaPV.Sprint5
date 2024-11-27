@@ -6,11 +6,16 @@ namespace Tyuiu.MohnonogovaPV.Sprint5.Task7.V8.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            string pathSaveFile = $@"{Directory.GetCurrentDirectory()}\OutPutDataFileTask7V8.txt";
+            string pathSaveFile = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask7.txt" });
+
             FileInfo fileInfo = new FileInfo(pathSaveFile);
             bool fileExists = fileInfo.Exists;
-            if (fileExists) File.Delete(pathSaveFile);
-            
+
+            if (fileExists)
+            {
+                File.Delete(pathSaveFile);
+
+            }
             string strLine = "";
             using (StreamReader reader = new StreamReader(path))
             {
