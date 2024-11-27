@@ -53,11 +53,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MohnonogovaPV.Sprint5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task6", "Task6", "{DC192B1A-82EC-44F7-9FA1-5214CB0D810F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9", "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9\Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.csproj", "{DB4D8235-0188-4E17-8ACD-7F01C53F19AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9", "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9\Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.csproj", "{DB4D8235-0188-4E17-8ACD-7F01C53F19AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Lib", "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Lib\Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Lib.csproj", "{7E8130C9-2B6A-40DF-BB58-B5EDC51183F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Lib", "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Lib\Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Lib.csproj", "{7E8130C9-2B6A-40DF-BB58-B5EDC51183F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Test", "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Test\Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Test.csproj", "{386E9E1F-1EA8-4421-8E7C-AEF1D05184C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Test", "Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Test\Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Test.csproj", "{386E9E1F-1EA8-4421-8E7C-AEF1D05184C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{B8300987-8399-4C86-B33F-4F545E547A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint5.Task7.V8", "Tyuiu.MohnonogovaPV.Sprint5.Task7.V8\Tyuiu.MohnonogovaPV.Sprint5.Task7.V8.csproj", "{023504C0-0932-41C8-9C45-64E00CE0DF9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint5.Task7.V8.Lib", "Tyuiu.MohnonogovaPV.Sprint5.Task7.V8.Lib\Tyuiu.MohnonogovaPV.Sprint5.Task7.V8.Lib.csproj", "{9EAE6A29-B7A4-452E-BB1D-28170CA24406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint5.Task7.V8.Test", "Tyuiu.MohnonogovaPV.Sprint5.Task7.V8.Test\Tyuiu.MohnonogovaPV.Sprint5.Task7.V8.Test.csproj", "{54F791F9-107A-4FB6-B7ED-F7594CC4A480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +157,18 @@ Global
 		{386E9E1F-1EA8-4421-8E7C-AEF1D05184C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{386E9E1F-1EA8-4421-8E7C-AEF1D05184C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{386E9E1F-1EA8-4421-8E7C-AEF1D05184C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023504C0-0932-41C8-9C45-64E00CE0DF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023504C0-0932-41C8-9C45-64E00CE0DF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023504C0-0932-41C8-9C45-64E00CE0DF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023504C0-0932-41C8-9C45-64E00CE0DF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EAE6A29-B7A4-452E-BB1D-28170CA24406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAE6A29-B7A4-452E-BB1D-28170CA24406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAE6A29-B7A4-452E-BB1D-28170CA24406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAE6A29-B7A4-452E-BB1D-28170CA24406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F791F9-107A-4FB6-B7ED-F7594CC4A480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F791F9-107A-4FB6-B7ED-F7594CC4A480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F791F9-107A-4FB6-B7ED-F7594CC4A480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F791F9-107A-4FB6-B7ED-F7594CC4A480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,6 +195,9 @@ Global
 		{DB4D8235-0188-4E17-8ACD-7F01C53F19AC} = {DC192B1A-82EC-44F7-9FA1-5214CB0D810F}
 		{7E8130C9-2B6A-40DF-BB58-B5EDC51183F0} = {DC192B1A-82EC-44F7-9FA1-5214CB0D810F}
 		{386E9E1F-1EA8-4421-8E7C-AEF1D05184C9} = {DC192B1A-82EC-44F7-9FA1-5214CB0D810F}
+		{023504C0-0932-41C8-9C45-64E00CE0DF9F} = {B8300987-8399-4C86-B33F-4F545E547A7E}
+		{9EAE6A29-B7A4-452E-BB1D-28170CA24406} = {B8300987-8399-4C86-B33F-4F545E547A7E}
+		{54F791F9-107A-4FB6-B7ED-F7594CC4A480} = {B8300987-8399-4C86-B33F-4F545E547A7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3874E96F-0476-4D40-A99E-2C3614DE511A}
