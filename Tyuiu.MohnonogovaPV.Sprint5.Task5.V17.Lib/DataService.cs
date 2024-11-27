@@ -18,15 +18,14 @@ namespace Tyuiu.MohnonogovaPV.Sprint5.Task5.V17.Lib
                     foreach (string number in lineArray)
                     {
                         double lineParse = double.Parse(number);
-
-                        if ((lineParse > 0)&&((lineParse % lineParse == 0)&&(lineParse % 1 == 0)))
+                        if (lineParse > 0)
                         {
                             res = res + lineParse;
                         }
                     }
                 }
             }
-            return 114.71;
+            return Math.Round(res, 3);
         }
     }
 }
