@@ -6,34 +6,29 @@ namespace Tyuiu.MohnonogovaPV.Sprint5.Task6.V9.Lib
     {
         public int LoadFromDataFile(string path)
         {
-            int count = 0;
-            int c = 0;
-            int z = 0;
+            int res = 0;
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    for (int i = 0; i < line.Length; i++)
+                    int j = 0;
+                    foreach (char i in line)
                     {
-                        if (line[i] != ' ')
-                        {
-                            z += 1;
-                        }
+                        if (Char.IsLetter(i)) j += 1;
                         else
                         {
-                            z = 0;
-                        }
-
-                        if (z == 3 && line[i + 1] == ' ')
-                        {
-                            count += 1;
+                            if (j == 3)
+                            {
+                                res += 1;
+                                j = 0;
+                            }
+                            else j = 0;
                         }
                     }
                 }
-                return count;
+                return res;
             }
         }
     }
-
 }
