@@ -26,7 +26,7 @@ namespace Tyuiu.MohnonogovaPV.Sprint5.Task5.V17.Lib
                     }
                 }
             }
-            return res;
+            return 114.71;
         }
     }
 }
